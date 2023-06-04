@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #292D30;
+    --cor2: #252728;
+    --cor3: white;
+    --cor4: black;
+    --cor5: #f4900c;
+    --cor6: #ff6304;
+    --cor7: #ff6102;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: 'Pathway Extreme', sans-serif;
+    color: var(--cor3);
+    height: 100vh;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor2);
+    justify-content: space-between;
+    border-bottom: solid 2px #f4900c;
+}
+
+a.links {
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 0 5%;
+}
+
+a#nome {
+    font: 200 25px 'Playfair', serif;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 0 5%;
+}
+
+nav {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img#logo {
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+section#logoname {
+    display:flex;
+    margin-left: 10px;
+    width: 50%;
+}
+
+a.border {
+    border-right: solid 2px var(--cor5);
+}
+
+main#rect {
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section#left {
+    border: solid 1px var(--cor5);
+    background-color: var(--cor2);
+    width: 20%;
+    padding: 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+div.imgmold{
+    position: relative;
+}
+
+div#circle1 {
+    border: solid 1px var(--cor5);
+    border-radius: 50%;
+    width: 142px;
+    height: 142px;
+    position: absolute;
+    top: -8%;
+    left: -8%
+}
+
+div#circle2 {
+    border: solid 1px var(--cor5);
+    border-radius: 50%;
+    width: 142px;
+    height: 142px;
+    position: absolute;
+    top: -7%;
+    left: -5%;
+}
+
+p#name {
+    font: normal 20px 'Pathway Gothic One', sans-serif;
+    margin-top: 5%;
+}
+
+p#place {
+    font: normal 15px 'Playfair', serif;
+    color: var(--cor5);
+}
+
+ul#resume {
+    font: normal 20px 'Pathway Gothic One', sans-serif;
+    margin-top: 10%;
+    padding: 10px;
+    list-style: url(../image/icon_seta.png);
+    margin-left: 22px;
+}
+
+li#resume {
+    margin-top: 5%;
+}
+
+section#middle {
+    border: solid 1px var(--cor5);
+    background-color: var(--cor2);
+    display: flex;
+    width: 50%
+}
+
+h1 {
+    font: normal 25px 'Playfair', serif;
+    color: var(--cor5);
+}
+
+div#left {
+    border-right: solid 1px var(--cor5);
+    padding: 0px 20px;
+    margin: 20px 0px;
+    width: 50%;
+}
+
+section.habilities {
+    margin: 20px 0px;
+    text-align: justify;
+    font: normal 15px 'Pathway Gothic One', sans-serif;
+}
+
+h1#formacao {
+    margin-top: 20px;
+}
+
+ul#form {
+    margin-top: 20px;
+    list-style: url(../image/icon_seta.png);
+    margin-left: 22px;
+}
+
+li.form {
+    margin-bottom: 20px;
+}
+
+div#right {
+    padding: 20px 20px;
+    width: 50%;
+}
+
+ul.courses {
+    margin-top: 16px;
+    text-align: justify;
+    font: normal 15px 'Pathway Gothic One', sans-serif;
+    list-style: url(../image/icon_seta.png);
+    margin-left: 22px;
+}
+
+li#course {
+    margin-bottom: 20px;
+}
+
+h1#experience {
+    margin-top: 20px;
+}
+
+ul.experience {
+    margin-top: 20px;
+    text-align: justify;
+    font: normal 15px 'Pathway Gothic One', sans-serif;
+    list-style: url(../image/icon_seta.png);
+    margin-left: 22px;
+}
+
+li#exp {
+    margin-bottom: 20px;
+}
+
+section#right {
+    border: solid 1px var(--cor5);
+    background-color: var(--cor2);
+    padding: 20px;
+    text-align: justify;
+    font: normal 20px 'Pathway Gothic One', sans-serif;
+    width: 20%;
+}
+
+ul#studies {
+    margin-top: 20px;
+    list-style: url(../image/icon_seta.png);
+    margin-left: 22px;
+}
+
+li.studies {
+    margin-bottom: 30px;
+}
+
+img#footer {
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+    bottom: 0px;
+    left: 0px;
+    height: 35%;
+}
